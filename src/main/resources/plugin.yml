@@ -1,0 +1,11 @@
+name: Monopoly
+author: NTaheij
+website: https://ntaheij.dev/
+main: dev.ntaheij.Monopoly.Main
+version: 0.1-beta
+
+commands:
+  monopoly:
+    description: Monopoly Command
+    usage: /monopoly
+    aliases: [monop]
