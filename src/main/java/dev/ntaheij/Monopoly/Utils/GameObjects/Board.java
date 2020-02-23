@@ -17,6 +17,6 @@ public class Board
 		boardfields.add(new BoardField(BoardFieldType.START, "Start"));
 		
 		BoardFieldValues bv1 = new BoardFieldValues(6000, 3000, 200, 400, 800, 1000, 1200, 2000);
-		boardfields.add(new BoardField(BoardFieldType.STREET, "Dorpstraat", "Ons Dorp", bv1));
+		boardfields.add(new BoardField(BoardFieldType.STREET, "Dorpstraat", Cities.ONS_DORP, bv1));
 	}
 }

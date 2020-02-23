@@ -28,9 +28,11 @@ enum BoardFieldType
 
 public class BoardField 
 {
+
+
 	BoardFieldType type;
 	String name;
-	String city;
+	Cities city;
 	BoardFieldValues bfv;
 	IngamePlayer owner;
 	
@@ -47,12 +49,16 @@ public class BoardField
 		this.bfv = bfv;
 	}
 	
-	public BoardField(BoardFieldType type, String name, String city, BoardFieldValues bfv)
+	public BoardField(BoardFieldType type, String name, Cities city, BoardFieldValues bfv)
 	{
 		this.type = type;
 		this.name = name;
 		this.city = city;
 		this.bfv = bfv;
+	}
+	
+	public IngamePlayer getOwner() {
+		return owner;
 	}
 	
 	public void setOwner(IngamePlayer ip)
